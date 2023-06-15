@@ -11,11 +11,11 @@ max_steps: 5000
 batch_size: 16
 
 num_neighbors: 7
-dataset_name: "cocostuff27"
+dataset_name: "directory"
 
 # Used if dataset_name is "directory"
-dir_dataset_name: ~
-dir_dataset_n_classes: 5
+dir_dataset_name: "/kaggle/working/brain"
+dir_dataset_n_classes: 4
 
 has_labels: False
 crop_type: "five"
